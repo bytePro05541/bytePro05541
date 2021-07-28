@@ -1,1 +1,11 @@
+###About the Data
+I have used the data available for Month of January, 2016. The dataset covers extensive details for each individual trip a taxi takes. The dataset contained over 100ml rows, which were then randomly sampled to collect 500k rows, again pruned to remove some outliers like time, length of trip etc recorded as Zeros. These could be the result of lack of proper reporting. Only a fraction of the actual dataset displayed this pattern. I assume this sample represents the population, so I can draw some high level inferences.
+Following information is being used for analysis
+
+- taxi number - this is an unique identifier for each taxi medallion, anonymized.
+- Date and time of the trip, start and end. Additionally, I derived the data to identify the number of trips per day, to find a pattern day over day.
+Length of each trip
+--Cost per trip, includes base fare, toll and tip.
+- Type of payment method used
+- Pickup and dropoff location by borough. This data seems to be incomplete, so not used for analysis.
 
